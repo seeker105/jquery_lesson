@@ -12,5 +12,9 @@ $(document).ready(function(){
     $(this).append("Ouch!");
   });
 
+  $('td').on('click', function(){
+    $(this).toggleClass("hidden");
+  });
+
 
 });
